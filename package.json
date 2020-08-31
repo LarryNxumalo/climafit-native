@@ -2,7 +2,7 @@
   "name": "climafit-native",
   "version": "1.0.0",
   "description": "A native application built with NativeScript-Vue",
-  "author": "Larry Nxumalo tlnxumalo@gmail.com",
+  "author": "Larry Nxumalo <tlnxumalo@gmail.com>",
   "license": "MIT",
   "nativescript": {
     "id": "org.nativescript.application",
@@ -14,8 +14,10 @@
       "version": "6.5.0"
     }
   },
-  "dependencies": { 
+  "dependencies": {
     "@nativescript/theme": "^2.2.1",
+    "moment": "^2.27.0",
+    "nativescript-gradient": "^2.0.1",
     "nativescript-vue": "^2.6.1",
     "tns-core-modules": "^6.5.1"
   },
